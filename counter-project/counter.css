@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgba(155, 103, 198, 0.586);
+}
+
+p{
+    font-size: 15rem;
+    color: rgb(142, 24, 130);
+    text-align: center;
+    margin: 0 ;
+}
+
+#result-box{
+    width: 25%;
+    font-size: 15rem;
+    /* background-color: red; */
+    margin:5rem auto;
+    text-align: center;
+    display:hidden;
+}
+
+#button-container{
+    /* background-color: blue; */
+    margin-top:10rem;
+    display: flex;
+    justify-content: space-evenly;
+    height: 7rem;
+
+}
+
+button{
+    font-size: 4rem;
+    border-color : rgb(108, 20, 70);
+    background-color: rgb(138, 5, 98);
+    color: lightpink;
+    border-radius: 5%;
+
+}
+
+button:hover{
+    color:rgb(229, 123, 226);
+}
+
+h1:hover{
+    color:rgb(74, 53, 74)
+}
+
+h1{
+    color:rgb(165, 23, 165)
+}
