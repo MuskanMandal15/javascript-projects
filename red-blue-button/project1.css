@@ -5,37 +5,48 @@ body{
 }
 
 
-#background-text{
-    background-color: aqua;
-    font-size: 8rem;
+/* #background-text{
+    background-color: rgb(109, 154, 245);
+    margin-top: 10rem;
+    font-size: 7rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
+} */
 
-}
-
-#button-1{
-    background: green;
-    margin-bottom: 10rem;
-    font-size: 5rem;
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
- /* #button{
-    background-color: black; 
-    margin-top: 20rem;
+p{
+    width:200px;
+    background-color: brown;
+    font-size: 30px;
+    margin: 122px auto;
+    color: white;
     text-align: center;
-}   */
+   animation: rotate 1.5s infinite;
+}
 
-/* #blue{ */
-    /* font-size: 6rem;
-    width: 10%; */
+
+#button-container-1,#button-container-2{
+    margin-top:10rem;
+    display: flex;
+    justify-content: space-evenly;
+    height: 7rem;
+
+}
+
+button{
+    font-size:6rem;
+    background-color: rgb(151, 191, 233);
+    border-color: black ;
+}
+
+
+@keyframes rotate {
+    from{
+        transform: rotate(0)
+    }
+    to{
+        transform: rotate(360deg);
+    }
     
-/* } */
-/* #red{ */
-    /* font-size: 6rem;
-    width: 10%; */
-    
-/* } */
+}
+

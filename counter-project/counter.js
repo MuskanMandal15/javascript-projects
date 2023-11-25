@@ -4,19 +4,18 @@ const INCREASE_BUTTON = document.getElementById("increase");
 const RESULT_BOX = document.getElementById("result-box");
 let count = 0;
 
+function btnHandler() {}
 
+DECREASE_BUTTON.addEventListener("click", function () {
+  count--;
+  RESULT_BOX.textContent = count;
+});
 
-DECREASE_BUTTON.addEventListener("click",function(){
-    count--;
-    RESULT_BOX.textContent = count;
-})
-
-RESET_BUTTON.addEventListener("click",function(){
- count = 0;
- RESULT_BOX.textContent = count;
- 
-})
-INCREASE_BUTTON.addEventListener("click",function(){
+RESET_BUTTON.addEventListener("click", function () {
+  count = 0;
+  RESULT_BOX.textContent = count;
+});
+INCREASE_BUTTON.addEventListener("click", function () {
   count++;
   RESULT_BOX.textContent = count;
-})
+});
